@@ -1,4 +1,4 @@
-Chart
+# Chart
 
 - React + TypeScript
 - PostCSS
