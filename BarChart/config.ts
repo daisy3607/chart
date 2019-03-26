@@ -1,0 +1,95 @@
+export const colors = [
+	'#76ceb1',
+	'#558ce7',
+	'#fabd6e',
+	'#f2749a',
+	'#c099d9',
+	'#98d4e7',
+	'#faab80',
+	'#6170b1',
+	'#ff838b',
+	'#d7d7d7',
+	'#ff838b',
+	'#d7d7d7',
+	'#494368',
+	'#ff8552',
+	'#e6e6e6',
+	'#6ba368',
+	'#60b2e5',
+	'#2892d7',
+	'#f6ae2d',
+	'#d33f49',
+	'#44e5e7',
+	'#5c7aff',
+	'#ffbc42',
+	'#cce3de',
+	'#6b9080',
+	'#f1ecce',
+	'#1b5299',
+	'#c9c9c9',
+	'#1cf1ba',
+	'#f6efa6',
+	'#f0d2d1',
+	'#42cafd',
+];
+
+export const defaultOptions = {
+	chartArea: {
+		width: '60%',
+		height: '90%',
+	},
+	bar: {
+		groupWidth: '65%',
+		groupHeight: '55%',
+	},
+	height: 220,
+	width: 920,
+	colors,
+	theme: 'material',
+	tooltip: {
+		isHtml: true,
+	},
+	isStacked: false,
+	legend: {
+		position: 'none',
+	},
+	hAxis: {
+		title: '',
+		minValue: 0,
+		format: '#',
+		gridlines: {
+			// count: 10,
+			color: '#bdbdbd',
+		},
+		minorGridlines: {
+			count: 0,
+		},
+		textStyle: {
+			bold: false,
+			fontSize: 14,
+			color: '#bdbdbd',
+		},
+		titleTextStyle: {
+			bold: false,
+			fontSize: 16,
+			color: '#bdbdbd',
+		},
+	},
+	vAxis: {
+		title: '',
+		format: '#',
+		textStyle: {
+			fontSize: 16,
+			bold: false,
+			color: '#989898',
+		},
+		minorGridlines: {
+			count: 0,
+		},
+		titleTextStyle: {
+			fontSize: 14,
+			bold: false,
+			color: '#bdbdbd',
+		},
+	},
+};
